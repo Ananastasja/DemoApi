@@ -3,11 +3,7 @@ package tests;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import objects.VacanciesList;
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.sql.SQLOutput;
-
 import static io.restassured.RestAssured.given;
 
 public class HeadhunterTest {
